@@ -2,7 +2,7 @@
   "title": "Omega Speedmaster: from racetrack to the Moon",
   "pillar": "Icons & Curiosities",
   "scheduled": "2026-09-29 15:00 (Europe/Rome) · manual launch post",
-  "status": "approved",
+  "status": "published",
   "slides": [
     {
       "type": "cover",
@@ -90,5 +90,8 @@
   "approved_by": "editor (chat)",
   "scheduled_at": "2026-09-29T15:00",
   "timezone": "Europe/Rome",
-  "publish_mode": "manual"
+  "publish_mode": "manual",
+  "published_at": "2026-09-29T06:22+02:00",
+  "permalink": "https://www.instagram.com/p/Dd24BOtiE6u/",
+  "published_by": "manual"
 }
