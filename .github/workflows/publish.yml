@@ -1,0 +1,42 @@
+# Publishes approved posts at their scheduled time (Europe/Rome).
+# Only posts with "status": "approved", an "approved_at" date and publish_mode != "manual" are ever published.
+name: Publish due posts
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes (GitHub may delay scheduled runs by a few minutes)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Publish due posts
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_API_VERSION: ${{ vars.IG_API_VERSION || 'v23.0' }}
+          HOST_KIND: github
+          HOST_GITHUB_REPO: ${{ github.repository }}
+        run: python scripts/publish.py --due
+      - name: Save published status back to the repo
+        run: |
+          if [ -n "$(git status --porcelain posts)" ]; then
+            git config user.name "timecircuits-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add posts
+            git commit -m "Mark post as published"
+            git push
+          fi

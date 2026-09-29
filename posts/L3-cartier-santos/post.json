@@ -1,0 +1,88 @@
+{
+  "title": "Cartier Santos: the watch made for a man who flew",
+  "pillar": "Brand Stories",
+  "scheduled": "2026-10-01 15:00 (Europe/Rome) · manual launch post",
+  "status": "approved",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Cartier Santos",
+      "title": "The watch made for a man who *flew.*",
+      "body": "In 1900, a real gentleman kept his watch in his pocket. One aviator changed that.",
+      "image": {
+        "file": "images/santos-dumont-nadar.jpg",
+        "credit": "Alberto Santos-Dumont by Nadar · Public domain",
+        "focus": "center 18%"
+      }
+    },
+    {
+      "type": "text",
+      "kicker": "Paris, early 1900s",
+      "title": "Wristwatches were for *women*",
+      "body": "Men carried **pocket watches on chains.** Watches worn on the wrist were mostly seen as ladies' jewelry. Then a Brazilian started flying over Paris."
+    },
+    {
+      "type": "text",
+      "kicker": "Alberto Santos-Dumont",
+      "title": "The dandy of the *skies*",
+      "body": "Rich, elegant and fearless, Santos-Dumont flew his own airships over Paris and became a celebrity. **He was also a close friend of Louis Cartier.**"
+    },
+    {
+      "type": "text",
+      "kicker": "The problem",
+      "title": "Try reading a pocket watch while *flying*",
+      "body": "As the story goes, Santos-Dumont told Cartier that **checking a pocket watch in flight was nearly impossible** with both hands on the controls."
+    },
+    {
+      "type": "year",
+      "year": "1904",
+      "title": "Louis Cartier's *answer*",
+      "body": "According to Cartier, the answer was a square watch **strapped to the wrist**, with a bold bezel and visible screws. Easy to read, elegant enough for the salons."
+    },
+    {
+      "type": "year",
+      "year": "1906",
+      "title": "Into the *record books*",
+      "body": "Santos-Dumont flies his 14-bis **220 meters in about 21 seconds**: Europe's first officially certified powered flight, and the first world aviation record.",
+      "image": {
+        "file": "images/14bis-1906.jpg",
+        "credit": "The 14-bis, 12 November 1906 · period newspaper illustration · Public domain",
+        "focus": "center"
+      }
+    },
+    {
+      "type": "year",
+      "year": "1911",
+      "title": "Everyone *wants one*",
+      "body": "In 1911 **Cartier puts the Santos on sale.** A watch on a man's wrist starts to look modern, not feminine. The First World War will finish the job."
+    },
+    {
+      "type": "cta",
+      "kicker": "Still in the collection",
+      "title": "Over a century later, the screws are *still there.*",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "The Quartz Crisis: the watch that almost killed Swiss watchmaking"
+    }
+  ],
+  "caption": "Before 1904, a wristwatch on a gentleman was seen as women's jewelry. ✈️\n\nBrazilian aviator Alberto Santos-Dumont needed to check the time without letting go of the controls. His friend Louis Cartier designed a square watch with a leather strap, and helped make the men's wristwatch a normal thing.\n\nFun fact for time travelers: his record-breaking flight happened on November 12. ⚡\n\nSources: Cartier; FAI; Quill & Pad; Wikipedia.\n\n#cartier #cartiersantos #santosdumont #watchhistory #horology #aviationhistory #luxurywatches #vintagewatches #watchesofinstagram",
+  "sources": [
+    "Quill & Pad — the world's first pilot's watch: https://quillandpad.com/2018/12/06/the-worlds-first-pilots-watch-cartier-santos-dumont-1904-to-2018/",
+    "Monochrome — history of the pilot watch, Cartier Santos 1904: https://monochrome-watches.com/history-of-the-pilot-watch-part-i-cartier-santos-1904/",
+    "FAI — 12 November 1906, first flight of Santos-Dumont: https://www.fai.org/news/12-november-1906-first-flight-santos-dumont",
+    "Santos-Dumont 14-bis: https://en.wikipedia.org/wiki/Santos-Dumont_14-bis",
+    "Watch (history of men's wristwatches, WWI): https://en.wikipedia.org/wiki/Watch"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → all required fixes applied. See factcheck.md.",
+    "The complaint to Cartier is brand lore, so it's now told as a story ('As the story goes').",
+    "Slide 7 no longer says 'only Santos-Dumont wore it for 7 years' (not supported)."
+  ],
+  "approved_at": "2026-09-25",
+  "approved_by": "editor (chat)",
+  "scheduled_at": "2026-10-01T15:00",
+  "timezone": "Europe/Rome",
+  "publish_mode": "manual"
+}

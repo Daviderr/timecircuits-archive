@@ -1,0 +1,78 @@
+{
+  "title": "Why watch ads show 10:10 (and why we show 10:04)",
+  "pillar": "Icons & Curiosities",
+  "scheduled": "2026-10-04 15:00 (Europe/Rome) · manual launch post",
+  "status": "approved",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Look closer",
+      "title": "Why does every watch ad say *10:10?*",
+      "body": "Next time you see a watch ad, check the time. It's almost always ten past ten. Here's why."
+    },
+    {
+      "type": "text",
+      "kicker": "Reason #1",
+      "title": "It *frames* the logo",
+      "body": "The hands form a neat V and **leave the brand name under the 12 uncovered**, along with the date window and subdials."
+    },
+    {
+      "type": "text",
+      "kicker": "Reason #2",
+      "title": "It looks like a *smile*",
+      "body": "In a 2017 study, watches set to 10:10 **made people feel happier and more likely to buy.** Watches set to 8:20, a “frown”, had no such effect."
+    },
+    {
+      "type": "year",
+      "year": "8:20",
+      "title": "It wasn't always *10:10*",
+      "body": "Early ads often used **8:20**: just as symmetrical, but sad-looking. By the 1950s, brands had switched to 10:10, and it stuck."
+    },
+    {
+      "type": "text",
+      "kicker": "The myth",
+      "title": "No, it's not about a *famous death*",
+      "body": "A popular story says 10:10 marks the moment Lincoln or JFK died. **False.** Lincoln was shot around 10:15 p.m. but died at 7:22 a.m. JFK was declared dead at 1:00 p.m."
+    },
+    {
+      "type": "year",
+      "year": "10:04",
+      "title": "So why does our clock say *10:04?*",
+      "body": "Because on November 12, 1955, lightning struck a certain clock tower in Hill Valley. **Our logo stops at the moment that bolt sent Marty back to the future.**"
+    },
+    {
+      "type": "text",
+      "kicker": "Welcome aboard",
+      "title": "This is *Time Circuits*",
+      "body": "Every week we set the dials to a different moment in watch history: **inventions, legendary brands and the watches of the big screen.**"
+    },
+    {
+      "type": "cta",
+      "kicker": "New story every Tue · Thu · Sun",
+      "title": "Set your time circuits. *Hit follow.*",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "Sean Connery, 007 and the Rolex Submariner"
+    }
+  ],
+  "caption": "Almost every watch ad shows 10:10. Ours shows 10:04. 🕙⚡\n\n10:10 frames the logo and looks like a smile, and a 2017 study found it actually makes people want to buy. 10:04 is when lightning struck the Hill Valley clock tower. Welcome to Time Circuits: the stories behind the watches that shaped history.\n\nSpotted the reference before this post? 👇\n\nSources: Karim et al., Frontiers in Psychology (2017); Wikipedia (Clock face).\n\n#watchhistory #horology #1010 #watchfacts #backtothefuture #watchadvertising #watchcommunity #watchesofinstagram #timecircuits",
+  "sources": [
+    "Karim et al. (2017), 'Why is 10 past 10 the default setting for clocks and watches in advertisements?', Frontiers in Psychology: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572348/",
+    "8:20 before 10:10; 10:10 common by the 1950s: https://petapixel.com/2022/05/17/the-science-behind-why-watches-are-set-to-1010-in-advertising-photos/",
+    "Clock face (10:10 convention): https://en.wikipedia.org/wiki/Clock_face",
+    "Lincoln died 7:22 a.m., 15 Apr 1865; JFK pronounced dead 1:00 p.m. CST, 22 Nov 1963 — well-documented historical record",
+    "Assassination of Abraham Lincoln: https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln",
+    "Assassination of John F. Kennedy: https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → all required fixes applied. See factcheck.md.",
+    "Slide 6 fixed: in the film, time travel already existed before 10:04. The lightning sends Marty home."
+  ],
+  "approved_at": "2026-09-25",
+  "approved_by": "editor (chat)",
+  "scheduled_at": "2026-10-04T15:00",
+  "timezone": "Europe/Rome",
+  "publish_mode": "manual"
+}

@@ -1,0 +1,95 @@
+{
+  "title": "John Harrison and the longitude problem",
+  "pillar": "Horology History",
+  "scheduled": "2026-09-30 15:00 (Europe/Rome) · manual launch post",
+  "status": "approved",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "The longitude problem",
+      "title": "The carpenter who saved sailors with a *clock.*",
+      "body": "How a self-taught craftsman solved the greatest scientific puzzle of his age.",
+      "image": {
+        "file": "images/harrison-portrait.jpg",
+        "credit": "John Harrison by Thomas King · Science Museum · Public domain",
+        "focus": "center 20%"
+      }
+    },
+    {
+      "type": "year",
+      "year": "1707",
+      "title": "Wrecked off their *own coast*",
+      "body": "Four Royal Navy warships hit the rocks of the Isles of Scilly. **Between 1,400 and 2,000 sailors die.** Bad charts, faulty compasses, no way to find longitude."
+    },
+    {
+      "type": "text",
+      "kicker": "The problem",
+      "title": "Latitude was easy. *Longitude* wasn't.",
+      "body": "Sailors read latitude from the Sun and stars. Longitude meant knowing the exact time back home, **and no clock could keep time on a rolling ship.**"
+    },
+    {
+      "type": "year",
+      "year": "1714",
+      "title": "A £20,000 *prize*",
+      "body": "Parliament passes the Longitude Act: **up to £20,000**, millions today, for a practical way to find longitude at sea. The experts bet on astronomy."
+    },
+    {
+      "type": "year",
+      "year": "1735",
+      "title": "A carpenter walks into *London*",
+      "body": "John Harrison, a self-taught joiner, arrives with H1: a sea clock that **ignores the motion of the ship.** It works on its first trial. He isn't satisfied."
+    },
+    {
+      "type": "year",
+      "year": "1759",
+      "title": "Then he makes it *small*",
+      "body": "After nearly two decades on his third clock, Harrison changes direction. H4 is **a large pocket watch, about 13 cm across.**",
+      "image": {
+        "file": "images/h4.jpg",
+        "credit": "Harrison's H4 · Photo: Colonel Warden · CC BY-SA 3.0 · Wikimedia Commons",
+        "focus": "center 40%"
+      }
+    },
+    {
+      "type": "year",
+      "year": "1761",
+      "title": "81 days at *sea*",
+      "body": "H4 sails to Jamaica aboard HMS Deptford. On arrival it is **just 5.1 seconds slow.** That should win the prize. It doesn't."
+    },
+    {
+      "type": "text",
+      "kicker": "The twist",
+      "title": "It took a *king*",
+      "body": "The Board of Longitude keeps demanding more tests. In 1772 **King George III tests Harrison's H5 himself.** In 1773, aged 80, Harrison receives £8,750 from Parliament."
+    },
+    {
+      "type": "cta",
+      "kicker": "His legacy",
+      "title": "Captain Cook called a copy of H4 *“our trusty friend.”*",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "Cartier Santos: the watch made for a man who flew"
+    }
+  ],
+  "caption": "Thousands of sailors died because nobody could fix a ship's position at sea. ⚓\n\nIn 1714 Britain offered a fortune to whoever solved the longitude problem. Everyone expected an astronomer. Instead, a self-taught carpenter spent decades building ever-better sea clocks, and his H4 changed navigation forever. Officially, the Longitude Prize was never awarded to anyone, though Harrison was eventually paid over £23,000.\n\nWould you have backed the stars or the clock? 👇\n\nSources: Royal Museums Greenwich; Wikipedia (John Harrison; Scilly naval disaster of 1707).\n\n#johnharrison #longitude #horology #watchhistory #chronometer #maritimehistory #royalobservatory #clockmaker #watchesofinstagram",
+  "sources": [
+    "Royal Museums Greenwich — Longitude found: https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem",
+    "John Harrison (dates, H4 size, George III & H5, £8,750 in 1773, prize never awarded): https://en.wikipedia.org/wiki/John_Harrison",
+    "Scilly naval disaster of 1707 (1,400–2,000 deaths): https://en.wikipedia.org/wiki/Scilly_naval_disaster_of_1707",
+    "H4 voyage to Jamaica, 5.1 seconds over 81 days: https://www.worldhistory.org/article/2197/harrisons-marine-chronometer/",
+    "Cook's K1, 'our trusty friend the Watch': https://www.rmg.co.uk/collections/objects/rmgc-object-79143",
+    "Larcum Kendall & K1: https://en.wikipedia.org/wiki/Larcum_Kendall"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → all required fixes applied. See factcheck.md.",
+    "Scilly 1707: several causes (charts, compasses, longitude), no longer 'just' longitude.",
+    "H4 photo is CC BY-SA 3.0: credit shown on the slide."
+  ],
+  "approved_at": "2026-09-25",
+  "approved_by": "editor (chat)",
+  "scheduled_at": "2026-09-30T15:00",
+  "timezone": "Europe/Rome",
+  "publish_mode": "manual"
+}

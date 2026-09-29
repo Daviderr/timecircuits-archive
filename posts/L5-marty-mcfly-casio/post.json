@@ -1,0 +1,82 @@
+{
+  "title": "Marty McFly's watch: what most fans get wrong",
+  "pillar": "Watches on Screen",
+  "scheduled": "2026-10-03 15:00 (Europe/Rome) · manual launch post",
+  "status": "approved",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Watches on screen",
+      "title": "Most fans get Marty's watch *wrong.*",
+      "body": "Everyone “knows” Marty McFly wears a Casio CA-53W. In the 1985 original, he doesn't."
+    },
+    {
+      "type": "year",
+      "year": "1985",
+      "title": "A very *80s* gadget",
+      "body": "Calculator watches are peak tech: a tiny keypad, a digital display, **a computer on your wrist.** The perfect watch for a teenager whose best friend is a mad scientist."
+    },
+    {
+      "type": "text",
+      "kicker": "The original",
+      "title": "Meet the *CA-50*",
+      "body": "In the first film, Marty wears a **Casio CA-50** calculator watch. In 1988 Casio replaced it with a successor, and the two got mixed up for good."
+    },
+    {
+      "type": "text",
+      "kicker": "The sequels",
+      "title": "Enter the *CA-53W*",
+      "body": "In Part II (1989) and Part III (1990), Marty wears the **CA-53W** (right). That's the one fans remember, and it's still on sale.",
+      "image": {
+        "file": "images/ca50-vs-ca53w.jpg",
+        "credit": "Left CA-50, right CA-53W · Photo: VSchagow · CC BY-SA 4.0 · Wikimedia Commons",
+        "focus": "center"
+      }
+    },
+    {
+      "type": "text",
+      "kicker": "Meanwhile, in Doc's lab",
+      "title": "The film opens with *clocks*",
+      "body": "A wall of ticking clocks, all set **exactly 25 minutes slow** by Doc's experiment. That's why Marty is late for school."
+    },
+    {
+      "type": "year",
+      "year": "10:04",
+      "title": "The most famous *stopped clock*",
+      "body": "On November 12, 1955, lightning strikes the Hill Valley clock tower and **stops it at 10:04 p.m.** Doc uses that bolt to send Marty home."
+    },
+    {
+      "type": "year",
+      "year": "2025",
+      "title": "Casio *goes back*",
+      "body": "For the film's 40th anniversary, Casio releases the **CA-500WEBF**, with a dial inspired by the DeLorean's OUTATIME plate and keys inspired by the time circuits."
+    },
+    {
+      "type": "cta",
+      "kicker": "Great Scott!",
+      "title": "Where we're going, we still need *watches.*",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "Why watch ads show 10:10, and why our clock shows 10:04"
+    }
+  ],
+  "caption": "Quick test for Back to the Future fans: which Casio does Marty wear? ⌚⚡\n\nMost people say CA-53W, but in the 1985 original it's the CA-50. The CA-53W only appears in Part II and Part III. And in 2025, for the film's 40th anniversary, Casio released a special calculator watch inspired by the DeLorean.\n\nDid you know? Be honest 👇\n\nSources: Wikipedia (Casio CA-53W); Casio; the film.\n\n#backtothefuture #martymcfly #casio #calculatorwatch #casioca53w #80s #moviewatches #watchhistory #watchesofinstagram",
+  "sources": [
+    "Casio CA-53W — CA-50 in the first film, CA-53W in Parts II & III: https://en.wikipedia.org/wiki/Casio_CA-53W",
+    "Casio CA-500WEBF anniversary model: https://www.casio.com/europe/corporate/casio-corporate/news/2025/ca-500webf-1aer/",
+    "Hill Valley clock tower, 10:04 p.m., 12 Nov 1955: https://backtothefuture.fandom.com/wiki/Hill_Valley_Thunderstorm",
+    "Back to the Future (1985) transcript — clocks 25 minutes slow: https://www.scifiscripts.com/scripts/backtothefuture_transcript.txt",
+    "Casio CA-53W still in the catalog: https://www.casio.com/europe/watches/casio/vintage/product.CA-53W-1/"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → all required fixes applied. See factcheck.md.",
+    "CA-50 vs CA-53W photo is CC BY-SA 4.0: credit shown on the slide."
+  ],
+  "approved_at": "2026-09-25",
+  "approved_by": "editor (chat)",
+  "scheduled_at": "2026-10-03T15:00",
+  "timezone": "Europe/Rome",
+  "publish_mode": "manual"
+}

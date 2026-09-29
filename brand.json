@@ -1,0 +1,10 @@
+{
+  "name": "Time Circuits",
+  "handle": "@timecircuits.archive",
+  "colors": {
+    "bg": "#0E0F12",
+    "paper": "#EDE6D6",
+    "gold": "#C8A15A",
+    "muted": "#8C8676"
+  }
+}

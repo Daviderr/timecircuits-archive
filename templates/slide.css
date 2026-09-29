@@ -1,0 +1,180 @@
+/* System fonts on macOS: no network needed when rendering */
+:root { --serif: 'Didot', 'Bodoni 72', 'Baskerville', serif; --sans: 'Avenir Next', 'Helvetica Neue', sans-serif; }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.slide {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  padding: 88px 96px;
+  display: flex;
+  flex-direction: column;
+  color: var(--paper);
+  font-family: var(--sans);
+  background:
+    radial-gradient(ellipse at 80% 0%, rgba(200,161,90,0.10), transparent 55%),
+    var(--bg);
+}
+
+/* Fine frame, like an old engraved plate */
+.slide::before {
+  content: "";
+  position: absolute;
+  inset: 36px;
+  border: 1.5px solid rgba(200,161,90,0.35);
+  pointer-events: none;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+}
+.top .page b { color: var(--gold); font-weight: 600; }
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kicker {
+  font-size: 26px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 112px;
+  line-height: 1.0;
+  letter-spacing: -0.01em;
+}
+h1 em { font-style: italic; color: var(--gold); font-weight: 500; }
+
+h2 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 1.05;
+  margin-bottom: 40px;
+}
+h2 em { font-style: italic; color: var(--gold); font-weight: 500; }
+
+.body {
+  font-size: 38px;
+  line-height: 1.45;
+  color: rgba(237,230,214,0.88);
+  max-width: 860px;
+}
+.body strong { color: var(--paper); font-weight: 600; }
+
+.year {
+  font-family: var(--serif);
+  font-size: 300px;
+  line-height: 0.85;
+  font-weight: 600;
+  color: var(--gold);
+  opacity: 0.9;
+  margin-bottom: 48px;
+  margin-left: -8px;
+}
+
+.rule {
+  width: 120px;
+  height: 3px;
+  background: var(--gold);
+  margin: 44px 0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.swipe { color: var(--gold); font-weight: 600; }
+.swipe span { display: inline-block; margin-left: 14px; font-size: 34px; vertical-align: -3px; }
+
+.progress {
+  position: absolute;
+  left: 96px; right: 96px; bottom: 60px;
+  height: 3px;
+  background: rgba(140,134,118,0.25);
+}
+.progress i { display: block; height: 100%; background: var(--gold); }
+
+/* Cover */
+.t-cover h1 { font-size: 128px; }
+.t-cover .body { margin-top: 48px; font-size: 40px; }
+
+/* CTA */
+.t-cta .actions { display: flex; gap: 28px; margin-top: 56px; }
+.t-cta .pill {
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  padding: 22px 36px;
+  font-size: 28px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.t-cta .next { margin-top: 72px; font-size: 30px; color: var(--muted); line-height: 1.4; }
+.t-cta .next b { color: var(--paper); font-weight: 500; }
+
+/* Licensed photos (Wikimedia Commons / public domain) */
+.photo { margin: 0 0 48px; position: relative; }
+.photo .img {
+  height: 520px;
+  background-size: cover;
+  border: 1.5px solid rgba(200,161,90,0.45);
+  filter: grayscale(0.25) sepia(0.18) contrast(1.05) brightness(0.92);
+}
+.credit {
+  margin-top: 12px;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.has-img .year { font-size: 150px; margin-bottom: 24px; }
+.has-img h2 { font-size: 64px; margin-bottom: 28px; }
+.has-img .body { font-size: 34px; }
+
+/* Cover with photo in the upper part, fading into the text */
+.bg-photo {
+  position: absolute; left: 0; right: 0; top: 0; height: 64%;
+  background-size: cover;
+  filter: grayscale(0.3) sepia(0.2) contrast(1.05) brightness(0.85);
+}
+.t-cover.has-img::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(14,15,18,0.55) 0%, rgba(14,15,18,0) 18%, rgba(14,15,18,0) 36%, rgba(14,15,18,0.9) 56%, var(--bg) 64%);
+}
+.t-cover.has-img::before { z-index: 2; }
+.t-cover.has-img > *:not(.bg-photo) { position: relative; z-index: 1; }
+.t-cover.has-img .content { justify-content: flex-end; padding-bottom: 72px; }
+.t-cover.has-img h1 { font-size: 104px; }
+.t-cover.has-img .rule { margin: 32px 0; }
+.t-cover.has-img .body { margin-top: 0; font-size: 36px; }
+.t-cover.has-img > .credit { position: absolute; z-index: 1; left: 96px; bottom: 140px; font-size: 16px; }
+.t-cover.has-img .progress { position: absolute; }

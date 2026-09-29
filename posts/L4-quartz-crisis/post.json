@@ -1,0 +1,84 @@
+{
+  "title": "The Quartz Crisis",
+  "pillar": "Horology History",
+  "scheduled": "2026-10-02 15:00 (Europe/Rome) · manual launch post",
+  "status": "approved",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "The Quartz Crisis",
+      "title": "The watch that almost killed *Swiss watchmaking.*",
+      "body": "A battery and a tiny crystal nearly wiped out centuries of tradition."
+    },
+    {
+      "type": "text",
+      "kicker": "The secret",
+      "title": "A crystal that *vibrates*",
+      "body": "Run electricity through quartz and it vibrates at a remarkably steady rate: **32,768 times per second** in most quartz watches. Count the vibrations, and you have a near-perfect clock."
+    },
+    {
+      "type": "year",
+      "year": "1967",
+      "title": "The Swiss were *ahead*",
+      "body": "Swiss quartz prototypes dominate the 1967 Neuchâtel Observatory competition, **beating Seiko's entries.** Then Switzerland hesitates."
+    },
+    {
+      "type": "year",
+      "year": "1969",
+      "title": "Seiko *strikes*",
+      "body": "On Christmas Day, Seiko launches the Astron, **the world's first quartz wristwatch on sale.** Accurate to ±5 seconds a month. Price: 450,000 yen, about as much as a Toyota Corolla."
+    },
+    {
+      "type": "text",
+      "kicker": "Switzerland responds…",
+      "title": "…*slowly*",
+      "body": "The Swiss Beta 21 arrives in 1970, but the industry trusts its mechanical tradition. Meanwhile quartz gets **cheaper every year.**"
+    },
+    {
+      "type": "text",
+      "kicker": "The collapse",
+      "title": "1,600 watch firms become *600*",
+      "body": "Between 1970 and the mid-1980s, **about two in three Swiss watch jobs disappear**: from roughly 90,000 workers to around 30,000."
+    },
+    {
+      "type": "year",
+      "year": "1983",
+      "title": "The plastic *savior*",
+      "body": "The Swiss fight back with a cheap, colorful plastic watch made of just 51 parts. **Swatch sells over 2.5 million in two years.**"
+    },
+    {
+      "type": "text",
+      "kicker": "The real ending",
+      "title": "Mechanical watches became *luxury*",
+      "body": "Quartz won the battle for accuracy. So Swiss mechanical watches stopped selling time and started selling **craft, history and emotion.**"
+    },
+    {
+      "type": "cta",
+      "kicker": "The lesson",
+      "title": "A crystal nearly ended it. *Plastic* saved it.",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "Marty McFly's watch: what most fans get wrong"
+    }
+  ],
+  "caption": "In 1969 a watch with a battery nearly ended centuries of Swiss watchmaking. ⚡\n\nThe twist: the Swiss had working quartz prototypes too, and they beat Seiko's in 1967. But Seiko put one on sale first. Within 15 years, two out of three Swiss watch jobs were gone, until a plastic watch called Swatch changed everything.\n\nQuartz or mechanical? Tell us 👇\n\nSources: Seiko Museum Ginza; Wikipedia (Quartz crisis); quartzwristwatch.org.\n\n#quartzcrisis #seikoastron #swatch #swisswatches #watchhistory #horology #seiko #vintagewatches #watchesofinstagram",
+  "sources": [
+    "Seiko Museum Ginza — birth of the quartz timepiece (Astron, 25 Dec 1969, ¥450,000): https://museum.seiko.co.jp/en/knowledge/Quartz01/",
+    "Quartz crisis (CEH, Beta 21, 1,600→600 watchmakers, 90,000→28,000 jobs 1970–1988, Swatch): https://en.wikipedia.org/wiki/Quartz_crisis",
+    "Beta 1 at the 1967 Neuchâtel Observatory contest vs Seiko: https://www.quartzwristwatch.org/history-of-the-first-quartz-wristwatch",
+    "Astron priced above a Toyota Corolla: https://www.seikowatches.com/global-en/products/astron/special/story_qa50th_1/",
+    "Astron (price vs Toyota Corolla): https://en.wikipedia.org/wiki/Astron_(wristwatch)",
+    "Beta 21 & 1967 Neuchâtel results: https://omegaprototypes.com/beta-21/"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → all required fixes applied. See factcheck.md.",
+    "No free-licensed images good enough for this topic, so this post stays text-only."
+  ],
+  "approved_at": "2026-09-25",
+  "approved_by": "editor (chat)",
+  "scheduled_at": "2026-10-02T15:00",
+  "timezone": "Europe/Rome",
+  "publish_mode": "manual"
+}

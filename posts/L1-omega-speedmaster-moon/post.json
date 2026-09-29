@@ -1,0 +1,94 @@
+{
+  "title": "Omega Speedmaster: from racetrack to the Moon",
+  "pillar": "Icons & Curiosities",
+  "scheduled": "2026-09-29 15:00 (Europe/Rome) · manual launch post",
+  "status": "approved",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "The Moonwatch",
+      "title": "It was never meant to leave *Earth.*",
+      "body": "How a racing chronograph became the watch NASA chose for the Moon.",
+      "image": {
+        "file": "images/aldrin-moon.jpg",
+        "credit": "Photo: Neil Armstrong / NASA · Public domain",
+        "focus": "center top"
+      }
+    },
+    {
+      "type": "year",
+      "year": "1957",
+      "title": "Born for the *racetrack*",
+      "body": "Omega launches the Speedmaster as a sports chronograph, with a **tachymeter scale on the bezel** to measure speed. Space isn't part of the plan."
+    },
+    {
+      "type": "year",
+      "year": "1962",
+      "title": "An unofficial *first flight*",
+      "body": "Astronaut Wally Schirra wears **his own Speedmaster** in orbit aboard Sigma 7. NASA hasn't chosen an official watch yet. But it's about to.",
+      "image": {
+        "file": "images/schirra.jpg",
+        "credit": "Wally Schirra, 1962 · NASA · Public domain",
+        "focus": "center 25%"
+      }
+    },
+    {
+      "type": "year",
+      "year": "1964",
+      "title": "The ultimate *torture test*",
+      "body": "NASA asks several brands for chronographs and puts them through **extreme heat and cold, vacuum, violent shocks and deafening noise.** One by one, they fail."
+    },
+    {
+      "type": "year",
+      "year": "1965",
+      "title": "Only one *survives*",
+      "body": "In March 1965 the Speedmaster is declared **flight-qualified for manned space missions.** Legend says Omega had no idea it was being tested. The records suggest otherwise."
+    },
+    {
+      "type": "year",
+      "year": "1969",
+      "title": "One small step for a *watch*",
+      "body": "Buzz Aldrin walks on the Moon wearing his Speedmaster. **Neil Armstrong left his inside the lunar module** as a backup, because its electronic timer had failed."
+    },
+    {
+      "type": "text",
+      "kicker": "The mystery",
+      "title": "The first watch worn on the Moon is *missing*",
+      "body": "Aldrin's Speedmaster was later sent to the Smithsonian. **It never made it**, and it has never been found. Perhaps the most famous watch in history, lost."
+    },
+    {
+      "type": "year",
+      "year": "1970",
+      "title": "The watch that brought them *home*",
+      "body": "On crippled Apollo 13, the crew times a **critical 14-second engine burn** with a Speedmaster. The astronauts later give Omega the Silver Snoopy Award."
+    },
+    {
+      "type": "cta",
+      "kicker": "Still in production",
+      "title": "Today, it's simply called the *Moonwatch.*",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "The carpenter who solved longitude with a clock"
+    }
+  ],
+  "caption": "It started as a racing chronograph. It ended up on the Moon. 🌕\n\nIn 1964 NASA put chronographs from several brands through heat, cold, vacuum and shock. Only the Omega Speedmaster survived. Five years later, Buzz Aldrin wore one on the lunar surface, and that watch has been missing ever since.\n\nWhich detail surprised you most? 👇\n\nSources: Omega; collectSPACE; Wikipedia.\n\n#omegaspeedmaster #moonwatch #watchhistory #horology #omega #apollo11 #spacehistory #vintagewatches #watchesofinstagram",
+  "sources": [
+    "Omega Speedmaster (overview): https://en.wikipedia.org/wiki/Omega_Speedmaster",
+    "Omega — 1965, NASA tests and qualifies the Speedmaster: https://www.omegawatches.com/chronicle/1965-nasa-tests-and-qualifies-the-speedmaster",
+    "Omega — 1970, the Silver Snoopy Award: https://www.omegawatches.com/chronicle/1970-the-silver-snoopy-award",
+    "collectSPACE — Aldrin's missing Speedmaster: https://www.collectspace.com/news/news-101303a-buzz-aldrin-apollo-11-omega-speedmaster-missing-lawsuit.html",
+    "Fratello — 60 years since NASA flight qualification: https://www.fratellowatches.com/celebrating-60-years-of-the-omega-speedmaster-becoming-nasa-flight-qualified/"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → all required fixes applied. See factcheck.md.",
+    "Earlier self-check: removed the disputed 'Houston shop' story; 'Omega didn't know' is framed as a legend.",
+    "Photos: NASA, public domain."
+  ],
+  "approved_at": "2026-09-25",
+  "approved_by": "editor (chat)",
+  "scheduled_at": "2026-09-29T15:00",
+  "timezone": "Europe/Rome",
+  "publish_mode": "manual"
+}
