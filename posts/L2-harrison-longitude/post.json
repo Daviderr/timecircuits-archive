@@ -2,7 +2,7 @@
   "title": "John Harrison and the longitude problem",
   "pillar": "Horology History",
   "scheduled": "2026-09-30 15:00 (Europe/Rome) · AUTO test via GitHub Actions",
-  "status": "approved",
+  "status": "published",
   "slides": [
     {
       "type": "cover",
@@ -91,5 +91,8 @@
   "approved_by": "editor (chat)",
   "scheduled_at": "2026-09-30T15:00",
   "timezone": "Europe/Rome",
-  "publish_mode": "auto"
+  "publish_mode": "auto",
+  "published_at": "2026-09-30T15:34+02:00",
+  "media_id": "18129346549698474",
+  "permalink": "https://www.instagram.com/p/Dd6c-K-m-GO/"
 }
