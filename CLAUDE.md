@@ -41,7 +41,7 @@ Strategia e calendario: `strategy/editorial-strategy.md`.
   - Niente fotogrammi di film né foto ufficiali dei brand.
 - **Pubblicazione**: solo tramite Instagram API ufficiale, mai automazione del browser.
   GitHub Actions (`.github/workflows/publish.yml`) pubblica i post con `status: approved` + `approved_at`,
-  `publish_mode: auto` e `scheduled_at` passato. I post di lancio L1–L6 sono `manual` (li pubblica l'editore).
+  `publish_mode: auto` e `scheduled_at` passato. L1 è stato pubblicato a mano; L2–L6 sono `auto`.
   Routine settimanale: `routines/weekly-drafts.md`. Guida operativa: `docs/guida-lancio-e-automazione.md`.
 
 ## Flusso per ogni post

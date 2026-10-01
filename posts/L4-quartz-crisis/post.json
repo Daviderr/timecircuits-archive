@@ -1,7 +1,7 @@
 {
   "title": "The Quartz Crisis",
   "pillar": "Horology History",
-  "scheduled": "2026-10-02 15:00 (Europe/Rome) · manual launch post",
+  "scheduled": "2026-10-02 15:00 (Europe/Rome) · auto via GitHub Actions",
   "status": "approved",
   "slides": [
     {
@@ -80,5 +80,5 @@
   "approved_by": "editor (chat)",
   "scheduled_at": "2026-10-02T15:00",
   "timezone": "Europe/Rome",
-  "publish_mode": "manual"
+  "publish_mode": "auto"
 }
