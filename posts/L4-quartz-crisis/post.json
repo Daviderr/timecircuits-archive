@@ -2,7 +2,7 @@
   "title": "The Quartz Crisis",
   "pillar": "Horology History",
   "scheduled": "2026-10-02 15:00 (Europe/Rome) · auto via GitHub Actions",
-  "status": "approved",
+  "status": "published",
   "slides": [
     {
       "type": "cover",
@@ -80,5 +80,8 @@
   "approved_by": "editor (chat)",
   "scheduled_at": "2026-10-02T15:00",
   "timezone": "Europe/Rome",
-  "publish_mode": "auto"
+  "publish_mode": "auto",
+  "published_at": "2026-10-02T16:11+02:00",
+  "media_id": "17985366117110396",
+  "permalink": "https://www.instagram.com/p/Dd_qwRhld14/"
 }
