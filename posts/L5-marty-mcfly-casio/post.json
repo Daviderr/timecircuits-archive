@@ -2,7 +2,7 @@
   "title": "Marty McFly's watch: what most fans get wrong",
   "pillar": "Watches on Screen",
   "scheduled": "2026-10-03 15:00 (Europe/Rome) · auto via GitHub Actions",
-  "status": "approved",
+  "status": "published",
   "slides": [
     {
       "type": "cover",
@@ -78,5 +78,8 @@
   "approved_by": "editor (chat)",
   "scheduled_at": "2026-10-03T15:00",
   "timezone": "Europe/Rome",
-  "publish_mode": "auto"
+  "publish_mode": "auto",
+  "published_at": "2026-10-03T15:14+02:00",
+  "media_id": "18568862854076227",
+  "permalink": "https://www.instagram.com/p/DeCJDs0m4ah/"
 }
