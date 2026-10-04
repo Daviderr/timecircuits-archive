@@ -3,12 +3,14 @@
 Usage:
   python3 scripts/publish.py posts/<folder>            # dry run: checks everything, publishes nothing
   python3 scripts/publish.py posts/<folder> --publish  # really publishes
-  python3 scripts/publish.py --due                     # publish every approved auto post whose time has come (used by GitHub Actions)
+  python3 scripts/publish.py --due                     # publish the next approved carousel or Reel whose time has come (GitHub Actions)
+  python3 scripts/publish.py posts/<folder> --reel     # dry run of the post's Reel (add --publish to post it)
   python3 scripts/publish.py --refresh-token           # renew the 60-day token (updates .env)
   python3 scripts/publish.py --print-refreshed-token   # renew and print only the new token (used by GitHub Actions)
   python3 scripts/publish.py --whoami                  # check the token/account
 
 Safety: refuses any post whose post.json doesn't have "status": "approved" and an "approved_at" date.
+A Reel needs its own approval ("reel": {"status": "approved", "approved_at": ...}) and goes out only after its carousel.
 Config lives in .env (see .env.example); never commit it.
 """
 import json
@@ -62,16 +64,16 @@ def upload_public(path: Path, cfg: dict) -> str:
     raise SystemExit("Image hosting not configured yet (HOST_KIND in .env). See docs/setup-instagram.md, Fase 5.")
 
 
-def wait_ready(cfg: dict, container_id: str) -> None:
-    for _ in range(30):
+def wait_ready(cfg: dict, container_id: str, tries: int = 30, delay: int = 5) -> None:
+    for _ in range(tries):
         status = call("GET", f"{api(cfg)}/{container_id}", fields="status_code",
                       access_token=cfg["IG_ACCESS_TOKEN"]).get("status_code")
         if status == "FINISHED":
             return
         if status in ("ERROR", "EXPIRED"):
             raise SystemExit(f"Container {container_id} failed: {status}")
-        time.sleep(5)
-    raise SystemExit(f"Container {container_id} not ready after 150s")
+        time.sleep(delay)
+    raise SystemExit(f"Container {container_id} not ready after {tries * delay}s")
 
 
 def publish(folder: str, really: bool) -> None:
@@ -119,6 +121,60 @@ def publish(folder: str, really: bool) -> None:
     print(f"PUBLISHED: {link}")
 
 
+def publish_reel(folder: str, really: bool) -> None:
+    d = (ROOT / folder).resolve()
+    post_file = d / "post.json"
+    post = json.loads(post_file.read_text())
+    reel = post.get("reel") or {}
+    video = d / reel.get("file", "reel/reel.mp4")
+
+    problems = []
+    if reel.get("status") != "approved" or not reel.get("approved_at"):
+        problems.append('Reel not approved by the editor (needs reel.status "approved" + reel.approved_at)')
+    if post.get("status") != "published":
+        problems.append("its carousel is not published yet (the Reel always goes out after it)")
+    if not video.exists():
+        problems.append(f"video file missing: {video.name}")
+    if len(reel.get("caption", "")) > 2200:
+        problems.append("Reel caption over 2,200 characters")
+    if problems:
+        raise SystemExit("STOP, not publishing the Reel:\n - " + "\n - ".join(problems))
+
+    print(f"OK: Reel of '{post['title']}' · {video.stat().st_size / 1e6:.1f} MB · approved {reel['approved_at']}")
+    if not really:
+        print("Dry run only. Add --publish to post it for real.")
+        return
+
+    cfg = env()
+    uid, token = cfg["IG_USER_ID"], cfg["IG_ACCESS_TOKEN"]
+    c = call("POST", f"{api(cfg)}/{uid}/media", media_type="REELS", video_url=upload_public(video, cfg),
+             caption=reel["caption"], share_to_feed=str(reel.get("share_to_feed", False)).lower(), access_token=token)
+    wait_ready(cfg, c["id"], tries=60, delay=10)  # video processing can take a few minutes
+    media = call("POST", f"{api(cfg)}/{uid}/media_publish", creation_id=c["id"], access_token=token)
+    link = call("GET", f"{api(cfg)}/{media['id']}", fields="permalink", access_token=token).get("permalink")
+    reel.update(status="published", published_at=datetime.now(ZoneInfo("Europe/Rome")).isoformat(timespec="minutes"),
+                media_id=media["id"], permalink=link)
+    post["reel"] = reel
+    post_file.write_text(json.dumps(post, indent=2, ensure_ascii=False) + "\n")
+    print(f"PUBLISHED REEL: {link}")
+
+
+def due_reels() -> list[Path]:
+    """Approved Reels whose carousel is already out and whose own time (Europe/Rome) has passed."""
+    now = datetime.now(ZoneInfo("Europe/Rome"))
+    due = []
+    for f in sorted((ROOT / "posts").glob("*/post.json")):
+        post = json.loads(f.read_text())
+        reel = post.get("reel") or {}
+        if post.get("status") != "published" or reel.get("status") != "approved" or not reel.get("approved_at"):
+            continue
+        when = reel.get("scheduled_at")
+        tz = ZoneInfo(post.get("timezone", "Europe/Rome"))
+        if when and datetime.fromisoformat(when).replace(tzinfo=tz) <= now:
+            due.append(f.parent)
+    return due
+
+
 def due_posts() -> list[Path]:
     """Approved, automatic, not yet published posts whose scheduled time (Europe/Rome) has passed."""
     now = datetime.now(ZoneInfo("Europe/Rome"))
@@ -142,10 +198,13 @@ def refresh(cfg: dict) -> dict:
 def main() -> None:
     args = sys.argv[1:]
     if "--due" in args:
-        due = due_posts()
-        print(f"{len(due)} post(s) due")
-        for d in due[:1]:  # at most one per run, so a backlog never floods the feed
-            publish(str(d.relative_to(ROOT)), really=True)
+        due, reels = due_posts(), due_reels()
+        print(f"{len(due)} carousel(s) and {len(reels)} Reel(s) due")
+        # at most one item per run, carousels first, so a backlog never floods the feed
+        if due:
+            publish(str(due[0].relative_to(ROOT)), really=True)
+        elif reels:
+            publish_reel(str(reels[0].relative_to(ROOT)), really=True)
         return
     if "--print-refreshed-token" in args:
         print(refresh(env())["access_token"])
@@ -160,6 +219,8 @@ def main() -> None:
         f.write_text("\n".join(f"IG_ACCESS_TOKEN={new['access_token']}" if l.startswith("IG_ACCESS_TOKEN=") else l
                                for l in f.read_text().splitlines()) + "\n")
         print(f"Token renewed, valid for {new.get('expires_in', 0) // 86400} days.")
+    elif args and "--reel" in args:
+        publish_reel(args[0], really="--publish" in args)
     elif args:
         publish(args[0], really="--publish" in args)
     else:

@@ -65,12 +65,12 @@ def slide_inner(s: dict, folder: Path) -> str:
     return "\n".join(parts)
 
 
-def slide_html(s: dict, i: int, n: int, brand: dict, css: str, folder: Path) -> str:
+def slide_html(s: dict, i: int, n: int, brand: dict, css: str, folder: Path, reel: bool = False) -> str:
     c = brand["colors"]
     has_img = " has-img" if s.get("image") else ""
     cover_bg = image_block(s, folder) if s.get("type") == "cover" else ""
     last = i == n
-    bottom_right = "" if last else '<div class="swipe">Swipe<span>&rarr;</span></div>'
+    bottom_right = "" if last or reel else '<div class="swipe">Swipe<span>&rarr;</span></div>'
     return f"""<!doctype html><html><head><meta charset="utf-8">
 <style>:root{{--bg:{c['bg']};--paper:{c['paper']};--gold:{c['gold']};--muted:{c['muted']};}}
 {css}</style></head><body>

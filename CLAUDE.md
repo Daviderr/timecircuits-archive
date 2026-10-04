@@ -29,6 +29,9 @@ Strategia e calendario: `strategy/editorial-strategy.md`.
 - Struttura dati del post: `posts/<data>-<slug>/post.json` (vedi esempio esistente).
 - Render: `/opt/anaconda3/bin/python3 scripts/render.py posts/<cartella>` → genera `slides/*.jpg` e `review.html`.
 - Pagina di approvazione multipla: `/opt/anaconda3/bin/python3 scripts/review_index.py posts/<cartelle>` → `posts/launch-review.html`.
+- Reel: `/opt/anaconda3/bin/python3 scripts/make_reel.py posts/<cartella>` → `reel/reel.mp4` (9:16, slide in sequenza, senza "Swipe"); approvazione separata in `post.json > reel`; escono alle 19:00 dopo il carosello, solo nella scheda Reel (`share_to_feed: false`).
+- Statistiche: `/opt/anaconda3/bin/python3 scripts/stats.py [--save]` (sola lettura; storico in `strategy/metrics/history.csv`).
+- Foto da Commons: `/opt/anaconda3/bin/python3 scripts/commons_fetch.py posts/<cartella> "File:Nome.jpg=nome-locale.jpg"`.
 - Tipi di slide: `cover`, `year` (il campo `year` accetta anche orari come "10:04"), `text`, `cta`.
 - Foto opzionale su qualsiasi slide: `"image": {"file": "images/x.jpg", "credit": "Autore · Licenza · Wikimedia Commons", "focus": "center 20%"}`. Sulla cover diventa sfondo sfumato, sulle altre un riquadro sopra il testo. Licenze e autori in `images/CREDITS.json` (scaricare via API di Commons, User-Agent esplicito, pause tra download).
 
