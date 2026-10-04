@@ -18,8 +18,8 @@ Costanza > volume: meglio 3 post ottimi ogni settimana che 7 mediocri.
 - 15:00 ora italiana (= 9:00 US East, sera in Europa). Da ricalibrare con gli insight dopo 4 settimane.
 
 ## Flusso settimanale
-- **Lunedì**: Claude propone i 3 temi della settimana + prepara le bozze complete.
-- **Lunedì/martedì**: L'editore approva in un'unica sessione (~20 minuti).
+- **Domenica 19:00**: Claude prepara le bozze complete (caroselli + Reel) della settimana successiva e il rapporto statistiche.
+- **Domenica sera / lunedì**: l'editore approva in un'unica sessione (~20 minuti).
 - I post approvati vengono programmati sugli slot mar/gio/dom.
 
 ## Metriche che contano (in ordine)

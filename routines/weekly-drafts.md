@@ -1,16 +1,16 @@
-# Routine del lunedì: bozze della settimana
+# Routine della domenica: bozze della settimana successiva
 
-Usata dall'attività programmata "weekly-drafts" (ogni lunedì alle 08:00, attiva dal 2026-10-05).
+Usata dall'attività programmata "weekly-drafts" (ogni domenica alle 19:00, prima esecuzione utile 2026-10-11).
 Cartella di lavoro: la cartella del progetto (root del repository).
 
-## Preparazione (lunedì)
+## Preparazione (domenica sera)
 0. **Statistiche:** `/opt/anaconda3/bin/python3 scripts/stats.py --save` (aggiunge lo snapshot a `strategy/metrics/history.csv`).
    Confronta con lo snapshot precedente e scrivi all'editore un rapporto di 5 righe: follower (variazione),
    post migliore per (salvati + condivisi) / copertura, Reel vs caroselli, una cosa da provare. Tienine conto nella scelta dei temi.
 1. Leggi `CLAUDE.md`, `strategy/editorial-strategy.md`, `memory-editoriale/feedback.md` e tutti i `posts/*/post.json`
    (evita ripetizioni, rispetta la rotazione dei pilastri, il primo post deve corrispondere al "next story"
    dell'ultimo post pubblicato o approvato).
-2. Scegli 3 temi per **martedì, giovedì e domenica della settimana corrente, alle 15:00 (Europe/Rome)**.
+2. Scegli 3 temi per **martedì, giovedì e domenica della settimana successiva, alle 15:00 (Europe/Rome)**.
    Cartelle numerate in sequenza: `posts/P07-<slug>/`, `P08`, ...
 3. Per ogni tema usa il sub-agente **researcher** → `research.md`.
 4. Scrivi `post.json` con `"status": "draft"`, `"publish_mode": "auto"`, `"scheduled_at": "AAAA-MM-GGT15:00"`,
