@@ -1,0 +1,110 @@
+{
+  "title": "Breguet and the invention of the tourbillon",
+  "pillar": "Horology History",
+  "status": "approved",
+  "publish_mode": "auto",
+  "scheduled_at": "2026-10-11T15:00",
+  "timezone": "Europe/Rome",
+  "scheduled": "2026-10-11 15:00 (Europe/Rome) · auto via GitHub Actions",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "The tourbillon",
+      "title": "Built for a problem your watch *barely has.*",
+      "body": "Abraham-Louis Breguet's most famous invention, and the debate it still sparks 225 years later.",
+      "image": {
+        "file": "images/breguet-portrait.jpg",
+        "credit": "Abraham-Louis Breguet, c. 1810 · Unknown painter · Public domain",
+        "focus": "center 20%"
+      }
+    },
+    {
+      "type": "text",
+      "kicker": "The problem",
+      "title": "Gravity in your *pocket*",
+      "body": "Pocket watches spent hours upright in a waistcoat. Gravity pulled on the balance in the same direction all day, **and the watch drifted.**"
+    },
+    {
+      "type": "year",
+      "year": "1801",
+      "title": "A cage that *rotates*",
+      "body": "On 26 June 1801, “7 Messidor, Year IX” in France's revolutionary calendar, Breguet patents the **tourbillon**: the escapement spins in a cage, averaging out gravity's errors.",
+      "image": {
+        "file": "images/tourbillon-patent-drawing.jpg",
+        "credit": "Breguet's original drawing for the 1801 patent · Public domain",
+        "focus": "center 30%"
+      }
+    },
+    {
+      "type": "text",
+      "kicker": "Rare from day one",
+      "title": "Only *35* sold",
+      "body": "Breguet sold just 35 tourbillons in his lifetime. And most didn't turn once a minute, as the patent describes, **but every 4 or 6 minutes.**"
+    },
+    {
+      "type": "year",
+      "year": "1808",
+      "title": "A tribute to a *friend*",
+      "body": "Breguet gives Arnold's son a chronometer by his late friend John Arnold, fitted with what its plaque calls *“the first tourbillon regulator by Breguet.”* **It's now in the British Museum.**"
+    },
+    {
+      "type": "text",
+      "kicker": "Today",
+      "title": "Does it work on the *wrist?*",
+      "body": "A wristwatch already moves through countless positions, so many experts say a tourbillon adds little accuracy. **Today it's mostly a showcase of skill.**",
+      "image": {
+        "file": "images/tourbillon-macro.jpg",
+        "credit": "A modern tourbillon cage · Photo: Guy Sie · CC BY-SA 2.0 · Wikimedia Commons",
+        "focus": "center"
+      }
+    },
+    {
+      "type": "year",
+      "year": "1783",
+      "title": "The queen's *impossible watch*",
+      "body": "It has no tourbillon, but everything else: an officer orders it for Marie Antoinette with **no limit on time or cost.** Guillotined in 1793, she never saw it finished.",
+      "image": {
+        "file": "images/no160-jerusalem.jpg",
+        "credit": "Breguet No. 160 “Marie-Antoinette”, Jerusalem · Photo: Atzatz · CC BY-SA 4.0",
+        "focus": "center 40%"
+      },
+      "kicker": "Breguet's most famous watch"
+    },
+    {
+      "type": "year",
+      "year": "1983",
+      "title": "Stolen, then *returned*",
+      "body": "The watch is stolen from a museum in Jerusalem. **More than twenty years later**, it comes back through a lawyer acting for the thief's widow."
+    },
+    {
+      "type": "cta",
+      "kicker": "Breguet's legacy",
+      "title": "Invented for pockets. *Admired on wrists.*",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "Paul Newman's Daytona and the auction record"
+    }
+  ],
+  "caption": "In 1801, Breguet invented a spinning cage to fight gravity. 225 years later, it's still watchmaking's ultimate flex. 🌀\n\nThe tourbillon was designed for pocket watches stuck upright in a waistcoat. Breguet sold only 35 in his lifetime, and experts still debate whether it helps a wristwatch at all.\n\nWould you buy a tourbillon? 👇\n\nSources: Breguet archive; Swatch Group archive; Revolution; British Museum; Quill & Pad; Wikipedia.\n\n#breguet #tourbillon #watchhistory #horology #hautehorlogerie #marieantoinette #pocketwatch #watchmaking #watchesofinstagram",
+  "sources": [
+    "Breguet — tourbillon patent, 26 June 1801 / 7 Messidor an IX; 35 sold 1805–1823: https://www.breguet.com/en/breguet-house/1801-1823/patent-granted-completely-new-type-regulator-called-tourbillon",
+    "Revolution — Year of the Tourbillon (patent date, rotation 4–6 minutes): https://revolutionwatch.com/year-of-the-tourbillon/",
+    "Swatch Group archive — Breguet, inventor of the tourbillon: https://www.swatchgroup.com/en/services/archive/2021/breguet-inventor-tourbillon",
+    "British Museum — Arnold No. 11 with Breguet tourbillon, 1808: https://www.bmimages.com/preview.asp?image=00035120001",
+    "Breguet — order of No. 160 (1783, no limit): https://www.breguet.com/en/breguet-house/1775-1801/order-watch-ndeg160-known-marie-antoinette-watch",
+    "Quill & Pad — Marie Antoinette and No. 160: https://quillandpad.com/2019/03/10/the-intriguing-story-of-marie-antoinette-and-her-legendary-breguet-pocket-watch-no-160/",
+    "Naaman Diller (1983 theft, return via his widow's lawyer): https://en.wikipedia.org/wiki/Naaman_Diller",
+    "Quill & Pad — tourbillons, pros and cons: https://quillandpad.com/2025/03/22/tourbillons-pros-and-cons-2/",
+    "Tourbillon (accuracy debate): https://en.wikipedia.org/wiki/Tourbillon"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → required fix applied (1808 = year of the gift; 'first tourbillon regulator' quoted from the plaque), slides reordered, cover softened.",
+    "No. 160 completion (1802 vs 1827) and recovery year (2006 vs 2007) are disputed, so the slides use wording true either way.",
+    "Fersen, Marat and 'first wristwatch' left out (legends/disputed).",
+    "Accuracy on the wrist is presented as a debate ('many experts say')."
+  ],
+  "approved_at": "2026-10-04",
+  "approved_by": "editor (chat)"
+}

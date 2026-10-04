@@ -1,0 +1,97 @@
+{
+  "title": "Sean Connery, 007 and the Rolex Submariner",
+  "pillar": "Watches on Screen",
+  "status": "approved",
+  "publish_mode": "auto",
+  "scheduled_at": "2026-10-06T15:00",
+  "timezone": "Europe/Rome",
+  "scheduled": "2026-10-06 15:00 (Europe/Rome) · auto via GitHub Actions",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Watches on screen",
+      "title": "Bond's creator gave him a Rolex. *He didn't own one.*",
+      "body": "How a dive watch became 007's signature, and why Ian Fleming nearly took it away.",
+      "image": {
+        "file": "images/connery-1964.jpg",
+        "credit": "Sean Connery, Switzerland 1964 · Comet Photo AG / ETH-Bibliothek Zürich · CC BY-SA 4.0",
+        "focus": "center 12%"
+      }
+    },
+    {
+      "type": "year",
+      "year": "1954",
+      "title": "Bond's first *Rolex*",
+      "body": "In the novel *Live and Let Die*, Bond checks the Rolex on his wrist while swimming underwater. Then, for the next eight books, **Bond doesn't wear one.**"
+    },
+    {
+      "type": "year",
+      "year": "1958",
+      "title": "Fleming *says no*",
+      "body": "A reader writes that Bond should wear a Rolex. Fleming replies that it's too heavy for a fight, and that Bond prefers **cheap, expendable watches** he can use as a knuckle-duster."
+    },
+    {
+      "type": "year",
+      "year": "1962",
+      "title": "Then comes *Dr. No*",
+      "body": "On screen, Sean Connery's Bond wears a **Rolex Submariner ref. 6538**, the “Big Crown” dive watch. Around the same time, Fleming buys his own Rolex, an Explorer.",
+      "image": {
+        "file": "images/submariner-6538.jpg",
+        "credit": "Submariner ref. 6538, late 1950s · Photo: EMore98 · CC BY-SA 4.0 · Wikimedia Commons",
+        "focus": "center 45%"
+      }
+    },
+    {
+      "type": "text",
+      "kicker": "The legend",
+      "title": "Whose watch *was it?*",
+      "body": "The popular story says producer Cubby Broccoli took the Rolex off his own wrist and handed it to Connery. **Nobody has ever proven it**, and other versions of the story exist."
+    },
+    {
+      "type": "year",
+      "year": "1964",
+      "title": "The strap that *wasn't* NATO",
+      "body": "In *Goldfinger*, Bond wears it on a striped nylon strap. Fans call it a NATO strap, but **the real NATO strap was only created in 1973.**"
+    },
+    {
+      "type": "text",
+      "kicker": "Four films",
+      "title": "A mystery on *his wrist*",
+      "body": "Connery wears a 6538 in *Dr. No*, *From Russia with Love*, *Goldfinger* and *Thunderball*. **Where the screen-worn watch ended up is still unknown.**"
+    },
+    {
+      "type": "year",
+      "year": "1995",
+      "title": "Bond *switches brands*",
+      "body": "A Rolex last appears on Bond's wrist in 1989. In *GoldenEye*, Pierce Brosnan wears an **Omega Seamaster**, and Omega has stayed on 007's wrist ever since."
+    },
+    {
+      "type": "cta",
+      "kicker": "The original",
+      "title": "Shaken, not stirred. *Waterproof to 200 m.*",
+      "actions": [
+        "Save",
+        "Follow"
+      ],
+      "next": "Royal Oak: the steel watch that shocked the luxury world"
+    }
+  ],
+  "caption": "Ian Fleming gave James Bond a Rolex in 1954. Four years later, he said Bond preferred cheap watches. 🍸⌚\n\nThen Dr. No arrived in 1962, and Sean Connery's Submariner 6538 turned a tool watch into a legend. How it got onto his wrist is still disputed, and where it went is still unknown.\n\nWhich Bond watch is your favorite? 👇\n\nSources: WatchTime (2009); NATO; New Atlas; Bob's Watches; Wikipedia.\n\n#rolexsubmariner #jamesbond #seanconnery #007 #rolex6538 #moviewatches #watchhistory #vintagerolex #watchesofinstagram",
+  "sources": [
+    "WatchTime, Feb 2009, D. Deaton, 'Found: James Bond's Rolex' (Fleming letters, 1954 novel, 1958 reply, his 1961–62 Explorer): https://www.jamesbondwatches.com/refs/WatchTime2009Feb.pdf",
+    "Rolex Submariner (origins, Bond films, last Rolex 1989): https://en.wikipedia.org/wiki/Rolex_Submariner",
+    "Bob's Watches — Submariner 6538: https://www.bobswatches.com/rolex-blog/editorial/vintage-rolex-submariner-6538.html",
+    "NATO — the NATO strap (created by UK MoD in 1973): https://www.nato.int/en/about-us/nato-history/history-by-theme/symbols-of-nato/nato-strap",
+    "Chronopedia — the Broccoli story told as 'supposedly': https://chronopedia.club/The_Rolex_Submariner_and_James_Bond",
+    "New Atlas — fate of the original watch a mystery: https://newatlas.com/first-james-bond-submariner-rolex-auction/61061/",
+    "Monochrome — Omega Seamaster & Bond since GoldenEye: https://monochrome-watches.com/retrospective-omega-seamaster-james-bond-007-history/"
+  ],
+  "review_notes": [
+    "Independent fact-check (fact-checker subagent): PASS WITH FIXES → both required fixes applied (Rolex still appears in the books on a villain; caption sources aligned), plus optional wording fixes.",
+    "Broccoli story framed as legend; strap width/colour avoided (sources disagree).",
+    "Fleming's first Rolex date is the author's estimate (1961–62), so the slide says 'around the same time'.",
+    "Both photos CC BY-SA 4.0 with credit on the slide; the Connery photo is a 1964 press photo, not a film frame."
+  ],
+  "approved_at": "2026-10-04",
+  "approved_by": "editor (chat)"
+}
