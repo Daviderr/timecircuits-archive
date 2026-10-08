@@ -1,7 +1,7 @@
 {
   "title": "Audemars Piguet Royal Oak and Gérald Genta",
   "pillar": "Brand Stories",
-  "status": "approved",
+  "status": "published",
   "publish_mode": "auto",
   "scheduled_at": "2026-10-08T15:00",
   "timezone": "Europe/Rome",
@@ -101,5 +101,8 @@
     "status": "approved",
     "approved_at": "2026-10-04",
     "approved_by": "editor (chat)"
-  }
+  },
+  "published_at": "2026-10-08T15:41+02:00",
+  "media_id": "18039625073832233",
+  "permalink": "https://www.instagram.com/p/DePEIj5G-cn/"
 }
