@@ -1,7 +1,7 @@
 {
   "title": "Breguet and the invention of the tourbillon",
   "pillar": "Horology History",
-  "status": "approved",
+  "status": "published",
   "publish_mode": "auto",
   "scheduled_at": "2026-10-11T15:00",
   "timezone": "Europe/Rome",
@@ -115,5 +115,8 @@
     "status": "approved",
     "approved_at": "2026-10-04",
     "approved_by": "editor (chat)"
-  }
+  },
+  "published_at": "2026-10-11T15:23+02:00",
+  "media_id": "18073951811571782",
+  "permalink": "https://www.instagram.com/p/DeWwafJHC7A/"
 }
